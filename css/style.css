@@ -6,11 +6,9 @@
     --blanco: #FFF;
     --negro: #000;
     --fuentePrincipal: 'Staatliches', cursive;
-
-
 }/*custom property*/
 
-  /*hacking padding */
+  /**********HACKING PADDING************/
 
 html {
     box-sizing: border-box;
@@ -37,7 +35,8 @@ html {
       text-decoration: none;
   }
   img{
-      width: 100%;
+       max-width: 100%;
+     /* width: 100%;*/ /*width es el maximo valor del contenedor*/
   }
 
   .contenedor{
