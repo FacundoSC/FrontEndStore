@@ -12,7 +12,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* hack 1rem =10px */
+    font-size: 62.5%; 
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -22,7 +22,7 @@ html {
 
   body{
      background-color: var(--primario);
-     font-size: 1.6rem;
+     font-size: 1.6rem; /* hack 1rem =10px */
      /* line-height: 1.5;   repasar video 49 **/
 
   }
@@ -45,8 +45,9 @@ html {
   }
 
   h1, h2, h3{
-    background-color: var(--primario);
+    color: var(--secundario);
     font-size: 1.6rem;
+    text-align: center;
  /* line-height: 1.5;   repasar video 49 **/
     font-family: var(--fuentePrincipal);
   }
@@ -65,6 +66,18 @@ html {
  .header__logo{
   margin: 3rem 0;
 
+ }
+
+ .footer{
+   background-color: var(--primarioOscuro);
+   padding: 1rem 0;
+   margin-top: 2rem;
+
+ }
+ .footer__texto{
+   text-align: center;
+   font-family: var(--fuentePrincipal);
+   font-size: 2.2rem;
  }
 
 
