@@ -50,7 +50,7 @@
             </div>
         </div><!-- .producto-->
         <div class="producto">
-            <img  class="producto__imagen"src="img/3.jpg" alt="camiseta" id="react">
+            <img  class="producto__imagen"src="img/3.jpg" alt="camiseta"  onclick="producto()">
             <div class="producto__informacion">
                 <p class="producto__nombre">React</p>
                 <p class="producto__precio">$25</p>
@@ -137,12 +137,15 @@
         <div class="grafico grafico--node"></div>
      </div>
   </main>
-
-
-
   <footer class="footer">
      <p class="footer__texto">Front End Store - Todos Los derechos reservados 2021.</p>
   </footer>
+  <script>
+     function producto() {
+         location.href="productos.html";
+     }
+
+  </script>
    
 </body>
 </html>
